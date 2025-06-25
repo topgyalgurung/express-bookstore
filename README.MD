@@ -37,7 +37,7 @@ This project includes a backend (Node.js + Express) and a frontend that interact
    Open the `config.js` file and set your PostgreSQL connection string:
 
    ```js
-   DB_URI = "postgresql://username:password@localhost:5432/your_db_name";
+   DB_URI = "postgresql://username:password@localhost:5432";
     ```
 2. Install backend dependencies
 In the root directory of the project (where package.json is located), run:
