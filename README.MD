@@ -26,6 +26,43 @@ A simple Node.js + Express JSON API project where we:
 
 ---
 
+## 🚀 How to Run the App
+
+This project includes a backend (Node.js + Express) and a frontend that interacts with it via Axios. Follow these steps to get everything up and running.
+
+### 🛠 Backend Setup
+
+1. **Add your database URI**
+
+   Open the `config.js` file and set your PostgreSQL connection string:
+
+   ```js
+   DB_URI = "postgresql://username:password@localhost:5432/your_db_name";
+    ```
+2. Install backend dependencies
+In the root directory of the project (where package.json is located), run:
+```bash
+    $ npm install
+```
+
+3. Start backend server 
+npm start
+
+This will run node server.js and start the Express API at http://localhost:3000
+
+--- 
+
+🌐 Frontend Setup
+	1.	Navigate to the frontend directory (frontend/), install dependencies and run frontend
+```bash
+    $ cd frontend
+    $ npm install  
+    $ npm run dev
+```
+This typically starts the frontend on http://localhost:5173.
+
+
+
 ## 🧪 Testing
 
 - All routes are covered by integration tests using **Jest** and **Supertest**
